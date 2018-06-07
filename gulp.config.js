@@ -83,13 +83,13 @@ module.exports = () => {
             rootdir: path.resolve(__dirname),
         },
         dest: {
-            dist: 'public',
-            js: 'public/assets/js',
-            markup: 'public',
-            style: 'public/assets/style',
-            assets: 'public/assets',
+            dist: 'docs',
+            js: 'docs/assets/js',
+            markup: 'docs',
+            style: 'docs/assets/style',
+            assets: 'docs/assets',
             toolkit: {
-                assets: 'public/assets'
+                assets: 'docs/assets'
             }
         },
     };

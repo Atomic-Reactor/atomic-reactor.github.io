@@ -60,7 +60,7 @@ typings/
 
 # Output of build
 dist
-# public
+public
 build
 
 ##### OS generated files
