@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "A framework for creating React + Redux apps using the domain driven design (DDD) paradigm.",
   "main": "index.js",
+  "homepage": "https://atomic-reactor.github.io",
   "scripts": {
     "start": "node build/.core/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +24,7 @@
     "docker": "npm-run-all -s clean docker:*",
     "docker:build": "docker image build -t atomicreactor/reactium:$npm_package_version .",
     "docker:push": "docker push atomicreactor/reactium:$npm_package_version",
-    "deploy": "cf push"
+    "deploy": "gh-pages -d docs"
   },
   "keywords": [
     "react",
@@ -56,6 +57,7 @@
     "directory-tree": "^2.0.0",
     "express": "^4.16.2",
     "express-http-proxy": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "http-auth": "^3.2.3",
     "moment": "^2.20.1",
     "morgan": "^1.9.0",
